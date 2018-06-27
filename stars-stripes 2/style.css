@@ -1,0 +1,116 @@
+@import "scss/font-awesome.scss";
+body {
+	font-family: 'Roboto', sans-serif!important;
+	line-height: 1;
+	background-color:#2A2F35!important;
+    background:url('images/sttbg4july.jpg') no-repeat;
+    background-size: contain;
+}
+p,li {font-size: 18px;
+    line-height: 28px;
+    font-weight: 100;}
+h1,h2,h3,h4,h5 {font-family: 'Raleway', sans-serif!important; }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+button:hover {cursor:pointer;}
+.logo {
+	background:url(images/stt-logo.png) no-repeat center;
+	background-size: contain;
+	width:260px;
+	height:35px;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:5px;
+	text-indent: -999999px;
+	display:block;}
+.subhead {text-align: center;
+	font-size:14px;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight:bold;}
+.cntr {background:#fff; padding:0px 30px 30px 30px!important; margin-top:20px;}
+.cntr h1,
+.cntr h2,
+.cntr h3,
+.cntr h4{text-align: center;}
+.sttplat {
+	background:url(images/sttplat.png) no-repeat;
+	height:350px;
+	background-size:contain;
+	max-width:600px;
+	margin:0 auto;
+	width:100%;
+	margin-top:30px;
+	}
+.cta  {text-align: center; margin:0px 0px 10px 0px;}
+.cta button.btn{font-size:200%;  white-space: normal;} 
+.btn {white-space: normal;}
+ul.well,
+ol.well{width:85%; margin:0 auto;}
+ul.welltwo {width:45%;}
+ul.well li {font-size:17px; margin:0px 0px 15px; list-style: none; }
+ul.well li u {background:#F8D937;}
+.yellows {background:#F8D937; padding:5px; border:#333 dashed 1px; }
+.yellowstwo {background:#F8D937; border:#333 dashed 1px; }
+.site-info {
+margin:40px 0px;
+	color:#9D9D9D!important;
+	font-size:12px;
+	font-family: sans-serif;}
+ul.fnb li {list-style: circle; 
+    margin-top:10px;
+    line-height: 130%;}
+
+.glyphicon.glyphicon-ok {padding-right:5px; color:green!important}
+
+/* MODAL */
+.modal-dialog {}
+.modal-header {text-align: center!important;font-size:30px!important;}
+.infusion-form {text-align: center; margin-top:30px;}
+.modal-header h4 {font-size:34px!important;}
+.modal-body {text-align: center; padding:20px 20px 40px 20px!important;}
+
+/* Custom Styles */
+.margin20 {margin:20px 0px;}
+.margintop20 {margin-top:20px;}
+.margintop30 {margin-top:30px;}
+.marginbot20 {margin-bottom:20px;}
+.red {color:#CE1019!important}
+.green {color:#1FA82E!important}
+
+@media screen and (max-width: 840px) {
+.cntr h1 {font-size:26px;}
+.cntr h2 {font-size:20px;}
+.cntr h3 {font-size:17px;}
+.cta a.btn{font-size:80%;}
+.sttplat {height:200px!important;}
+ul.well,
+ol.well,
+ul.well.welltwo{width:100%; margin:0 auto;}
+ul.well li {font-size:15px!important;}
+button.btn.button-primary {font-size:14px!important;}
+}
+@media screen and (max-width: 390px) {
+.cntr {padding:0!important;}
+.cntr h1 {font-size:20px;}
+    .cntr h2 {font-size:17px;}
+.cntr h3 {font-size:13px;}
+.cta a.btn{font-size:75%;}
+ul.well.welltwo {width:100%!important;}
+ul.well li {font-size:13px; }
+
+}
+
